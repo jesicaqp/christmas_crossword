@@ -1,265 +1,293 @@
-<html lang="en">
 <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>New Age - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="#page-top">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Download</a></li>
+                    </ul>
 
-<head>
-    <title>ho! ho! ho!</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <h1>a little christmas crossword</h1>
-    <h3>by thatcodingirl</h3>
-
-    <div>
-        <label for="checkvaliditems">Check for valid squares</label>   
-        <input type="checkbox" name="checkvaliditems" id="checkvaliditems" />
-         
-    </div>
-    
-
-    <div class="crossword-board-container">
-
-        <div class="crossword-board">
-            <!-- ROW 1 -->
-            <span class="crossword-board__item--blank" id="item1-1"></span>
-            <span class="crossword-board__item--blank" id="item1-2"></span>
-            <input id="item1-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[nN]{1}$" required="required" value="" />
-            <span class="crossword-board__item--blank" id="item1-4"></span>
-            <span class="crossword-board__item--blank" id="item1-5"></span>
-            <span class="crossword-board__item--blank" id="item1-6"></span>
-            <!-- ROW 1 -->
-
-            <!-- ROW 2 -->
-            <span class="crossword-board__item--blank" id="item2-1"></span>
-            <span class="crossword-board__item--blank" id="item2-2"></span>
-            <input id="item2-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[oO]{1}$" required="required" value="" />
-            <span class="crossword-board__item--blank" id="item2-4"></span>
-            <span class="crossword-board__item--blank" id="item2-5"></span>
-            <span class="crossword-board__item--blank" id="item2-6"></span>
-            <!-- ROW 2 -->
-
-            <!-- ROW 3 -->
-            <span class="crossword-board__item--blank" id="item3-1"></span>
-            <span class="crossword-board__item--blank" id="item3-2"></span>
-            <input id="item3-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[sS]{1}$" required="required" value="" />
-            <span class="crossword-board__item--blank" id="item3-4"></span>
-            <span class="crossword-board__item--blank" id="item3-5"></span>
-            <span class="crossword-board__item--blank" id="item3-6"></span>
-            <!-- ROW 3 -->
-
-            <!-- ROW 4 -->
-            <input id="item4-1" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[fF]{1}$" required="required" value="" />
-            <input id="item4-2" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[uU]{1}$" required="required" value="" />
-            <input id="item4-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[tT]{1}$" required="required" value="" />
-            <input id="item4-4" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[uU]{1}$" required="required" value="" />
-            <input id="item4-5" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[rR]{1}$" required="required" value="" />
-            <input id="item4-6" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[eE]{1}$" required="required" value="" />
-            <!-- ROW 4 -->
-
-            <!-- ROW 5 -->
-            <span class="crossword-board__item--blank" id="item5-1"></span>
-            <span class="crossword-board__item--blank" id="item5-2"></span>
-            <input id="item5-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[aA]{1}$" required="required" value="" />
-            <span class="crossword-board__item--blank" id="item5-4"></span>
-            <span class="crossword-board__item--blank" id="item5-5"></span>
-            <span class="crossword-board__item--blank" id="item5-6"></span>
-            <!-- ROW 5 -->
-
-            <!-- ROW 6 -->
-            <span class="crossword-board__item--blank" id="item6-1"></span>
-            <span class="crossword-board__item--blank" id="item6-2"></span>
-            <input id="item6-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[lL]{1}$" required="required" value="" />
-            <span class="crossword-board__item--blank" id="item6-4"></span>
-            <span class="crossword-board__item--blank" id="item6-5"></span>
-            <span class="crossword-board__item--blank" id="item6-6"></span>
-            <!-- ROW 6 -->
-
-            <!-- ROW 7 -->
-            <span class="crossword-board__item--blank" id="item7-1"></span>
-            <span class="crossword-board__item--blank" id="item7-2"></span>
-            <input id="item7-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[gG]{1}$" required="required" value="" />
-            <span class="crossword-board__item--blank" id="item7-4"></span>
-            <span class="crossword-board__item--blank" id="item7-5"></span>
-            <span class="crossword-board__item--blank" id="item7-6"></span>
-            <!-- ROW 7 -->
-
-            <!-- ROW 8 -->
-            <span class="crossword-board__item--blank" id="item8-1"></span>
-            <span class="crossword-board__item--blank" id="item8-2"></span>
-            <input id="item8-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[iI]{1}$" required="required" value="" />
-            <span class="crossword-board__item--blank" id="item8-4"></span>
-            <span class="crossword-board__item--blank" id="item8-5"></span>
-            <span class="crossword-board__item--blank" id="item8-6"></span>
-            <!-- ROW 8 -->
-
-            <!-- ROW 9 -->
-            <span class="crossword-board__item--blank" id="item9-1"></span>
-            <span class="crossword-board__item--blank" id="item9-2"></span>
-            <input id="item9-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
-                pattern="^[aA]{1}$" required="required" value="" />
-            <span class="crossword-board__item--blank" id="item9-4"></span>
-            <span class="crossword-board__item--blank" id="item9-5"></span>
-            <span class="crossword-board__item--blank" id="item9-6"></span>
-            <!-- ROW 9 -->
-            <div class="crossword-board crossword-board--highlight crossword-board--highlight--across">
-                <span id="across-1"
-                    class="crossword-board__item-highlight crossword-board__item-highlight--across-1"></span>
+                </div>
             </div>
-
-            <div class="crossword-board crossword-board--highlight crossword-board--highlight-down">
-                <span id="down-1"
-                    class="crossword-board__item-highlight crossword-board__item-highlight--down-1"></span>
-            </div>
-
-            <div class="crossword-board crossword-board--labels">
-                <span id="label-1" class="crossword-board__item-label crossword-board__item-label--1"><span
-                        class="crossword-board__item-label-text">1</span></span>
-                <span id="label-2" class="crossword-board__item-label crossword-board__item-label--2"><span
-                        class="crossword-board__item-label-text">2</span></span>
-            </div>
-
-            <div class="crossword-clues">
-
-                <dl class="crossword-clues__list crossword-clues__list--across">
-                    <dt class="crossword-clues__list-title">Across</dt>
-                    <dd class="crossword-clues__list-item crossword-clues__list-item--across-1" data-number="1">Not the past, not the present
-                        (6)</dd>
-                </dl>
-
-                <dl class="crossword-clues__list crossword-clues__list--down">
-                    <dt class="crossword-clues__list-title">Down</dt>
-                    <dd class="crossword-clues__list-item crossword-clues__list-item--down-1" data-number="1">Looking back longingly (9)
-                    </dd>
-                </dl>
-
-            </div>
-            
-            <div class="crossword-complete">
-                well done, hunk!
-            </div>
-
-        </div>
-        
-        
-    </div>
-    
-    <!---
-   <script type="text/javascript">
-
-        /******************************************
-        * Snow Effect Script- By Altan d.o.o. (http://www.altan.hr/snow/index.html)
-        * Visit Dynamic Drive DHTML code library (http://www.dynamicdrive.com/) for full source code
-        * Last updated Nov 9th, 05' by DD. This notice must stay intact for use
-        ******************************************/
-   
-          function openwindow(){
-        window.open("autumn_effect.htm","","width=350,height=500")
-        }
-        
-          //Configure below to change URL path to the snow image
-          var snowsrc="snow3.gif"
-          // Configure below to change number of snow to render
-          var no = 10;
-          // Configure whether snow should disappear after x seconds (0=never):
-          var hidesnowtime = 0;
-          // Configure how much snow should drop down before fading ("windowheight" or "pageheight")
-          var snowdistance = "pageheight";
-        
-        ///////////Stop Config//////////////////////////////////
-        
-          var ie4up = (document.all) ? 1 : 0;
-          var ns6up = (document.getElementById&&!document.all) ? 1 : 0;
-        
-            function iecompattest(){
-            return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
-            }
-        
-          var dx, xp, yp;    // coordinate and position variables
-          var am, stx, sty;  // amplitude and step variables
-          var i, doc_width = 800, doc_height = 600; 
           
-          if (ns6up) {
-            doc_width = self.innerWidth;
-            doc_height = self.innerHeight;
-          } else if (ie4up) {
-            doc_width = iecompattest().clientWidth;
-            doc_height = iecompattest().clientHeight;
-          }
+        </nav>
         
-          dx = new Array();
-          xp = new Array();
-          yp = new Array();
-          am = new Array();
-          stx = new Array();
-          sty = new Array();
-          snowsrc=(snowsrc.indexOf("dynamicdrive.com")!=-1)? "snow.gif" : snowsrc
-          for (i = 0; i < no; ++ i) {  
-            dx[i] = 0;                        // set coordinate variables
-            xp[i] = Math.random()*(doc_width-50);  // set position variables
-            yp[i] = Math.random()*doc_height;
-            am[i] = Math.random()*20;         // set amplitude variables
-            stx[i] = 0.02 + Math.random()/10; // set step variables
-            sty[i] = 0.7 + Math.random();     // set step variables
-                if (ie4up||ns6up) {
-              if (i == 0) {
-                document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"http://dynamicdrive.com\"><img src='"+snowsrc+"' border=\"0\"><\/a><\/div>");
-              } else {
-                document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src='"+snowsrc+"' border=\"0\"><\/div>");
-              }
-            }
-          }
-        
-          function snowIE_NS6() {  // IE and NS6 main animation function
-            doc_width = ns6up?window.innerWidth-10 : iecompattest().clientWidth-10;
-                doc_height=(window.innerHeight && snowdistance=="windowheight")? window.innerHeight : (ie4up && snowdistance=="windowheight")?  iecompattest().clientHeight : (ie4up && !window.opera && snowdistance=="pageheight")? iecompattest().scrollHeight : iecompattest().offsetHeight;
-            if (snowdistance=="windowheight"){
-                doc_height = window.innerHeight || iecompattest().clientHeight
-            }
-            else{
-                doc_height = iecompattest().scrollHeight
-            }
-            for (i = 0; i < no; ++ i) {  // iterate for every dot
-              yp[i] += sty[i];
-              if (yp[i] > doc_height-50) {
-                xp[i] = Math.random()*(doc_width-am[i]-30);
-                yp[i] = 0;
-                stx[i] = 0.02 + Math.random()/10;
-                sty[i] = 0.7 + Math.random();
-              }
-              dx[i] += stx[i];
-              document.getElementById("dot"+i).style.top=yp[i]+"px";
-              document.getElementById("dot"+i).style.left=xp[i] + am[i]*Math.sin(dx[i])+"px";  
-            }
-            snowtimer=setTimeout("snowIE_NS6()", 10);
-          }
-        
-            function hidesnow(){
-                if (window.snowtimer) clearTimeout(snowtimer)
-                for (i=0; i<no; i++) document.getElementById("dot"+i).style.visibility="hidden"
-            }
-                
-        
-        if (ie4up||ns6up){
-            snowIE_NS6();
-                if (hidesnowtime>0)
-                setTimeout("hidesnow()", hidesnowtime*1000)
-                }
-        
-        </script>
--->
-</body>
+        <!-- Mashead header-->
+        <header class="masthead">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <!-- Mashead text and app badges-->
+                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                            <h1 class="display-1 lh-1 mb-3">A Little Christmas Crossword</h1>
+                            <p class="lead fw-normal text-muted mb-5">For the most dashing boyfriend of them all</p>
+                        </div>
+                        
+                    </div>
+                    <!-- TODO: need to figure out how to enable this from different html divs
+                    <label for="checkvaliditems">Check for valid squares</label>   
+                    <input type="checkbox" name="checkvaliditems" id="checkvaliditems" />
+                    -->
+                    <div class="col-lg-6">
+                        <!-- Masthead device mockup feature-->
+                        
+                        <div class="crossword-board-container">
+                                <div class="crossword-board">
+                                    <!-- ROW 1 -->
+                                    <span class="crossword-board__item--blank" id="item1-1"></span>
+                                    <span class="crossword-board__item--blank" id="item1-2"></span>
+                                    <input id="item1-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[nN]{1}$" required="required" value="" />
+                                    <span class="crossword-board__item--blank" id="item1-4"></span>
+                                    <span class="crossword-board__item--blank" id="item1-5"></span>
+                                    <span class="crossword-board__item--blank" id="item1-6"></span>
+                                    <!-- ROW 1 -->
+                        
+                                    <!-- ROW 2 -->
+                                    <span class="crossword-board__item--blank" id="item2-1"></span>
+                                    <span class="crossword-board__item--blank" id="item2-2"></span>
+                                    <input id="item2-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[oO]{1}$" required="required" value="" />
+                                    <span class="crossword-board__item--blank" id="item2-4"></span>
+                                    <span class="crossword-board__item--blank" id="item2-5"></span>
+                                    <span class="crossword-board__item--blank" id="item2-6"></span>
+                                    <!-- ROW 2 -->
+                        
+                                    <!-- ROW 3 -->
+                                    <span class="crossword-board__item--blank" id="item3-1"></span>
+                                    <span class="crossword-board__item--blank" id="item3-2"></span>
+                                    <input id="item3-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[sS]{1}$" required="required" value="" />
+                                    <span class="crossword-board__item--blank" id="item3-4"></span>
+                                    <span class="crossword-board__item--blank" id="item3-5"></span>
+                                    <span class="crossword-board__item--blank" id="item3-6"></span>
+                                    <!-- ROW 3 -->
+                        
+                                    <!-- ROW 4 -->
+                                    <input id="item4-1" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[fF]{1}$" required="required" value="" />
+                                    <input id="item4-2" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[uU]{1}$" required="required" value="" />
+                                    <input id="item4-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[tT]{1}$" required="required" value="" />
+                                    <input id="item4-4" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[uU]{1}$" required="required" value="" />
+                                    <input id="item4-5" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[rR]{1}$" required="required" value="" />
+                                    <input id="item4-6" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[eE]{1}$" required="required" value="" />
+                                    <!-- ROW 4 -->
+                        
+                                    <!-- ROW 5 -->
+                                    <span class="crossword-board__item--blank" id="item5-1"></span>
+                                    <span class="crossword-board__item--blank" id="item5-2"></span>
+                                    <input id="item5-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[aA]{1}$" required="required" value="" />
+                                    <span class="crossword-board__item--blank" id="item5-4"></span>
+                                    <span class="crossword-board__item--blank" id="item5-5"></span>
+                                    <span class="crossword-board__item--blank" id="item5-6"></span>
+                                    <!-- ROW 5 -->
+                        
+                                    <!-- ROW 6 -->
+                                    <span class="crossword-board__item--blank" id="item6-1"></span>
+                                    <span class="crossword-board__item--blank" id="item6-2"></span>
+                                    <input id="item6-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[lL]{1}$" required="required" value="" />
+                                    <span class="crossword-board__item--blank" id="item6-4"></span>
+                                    <span class="crossword-board__item--blank" id="item6-5"></span>
+                                    <span class="crossword-board__item--blank" id="item6-6"></span>
+                                    <!-- ROW 6 -->
+                        
+                                    <!-- ROW 7 -->
+                                    <span class="crossword-board__item--blank" id="item7-1"></span>
+                                    <span class="crossword-board__item--blank" id="item7-2"></span>
+                                    <input id="item7-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[gG]{1}$" required="required" value="" />
+                                    <span class="crossword-board__item--blank" id="item7-4"></span>
+                                    <span class="crossword-board__item--blank" id="item7-5"></span>
+                                    <span class="crossword-board__item--blank" id="item7-6"></span>
+                                    <!-- ROW 7 -->
+                        
+                                    <!-- ROW 8 -->
+                                    <span class="crossword-board__item--blank" id="item8-1"></span>
+                                    <span class="crossword-board__item--blank" id="item8-2"></span>
+                                    <input id="item8-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[iI]{1}$" required="required" value="" />
+                                    <span class="crossword-board__item--blank" id="item8-4"></span>
+                                    <span class="crossword-board__item--blank" id="item8-5"></span>
+                                    <span class="crossword-board__item--blank" id="item8-6"></span>
+                                    <!-- ROW 8 -->
+                        
+                                    <!-- ROW 9 -->
+                                    <span class="crossword-board__item--blank" id="item9-1"></span>
+                                    <span class="crossword-board__item--blank" id="item9-2"></span>
+                                    <input id="item9-3" class="crossword-board__item" type="text" minlength="1" maxlength="1"
+                                        pattern="^[aA]{1}$" required="required" value="" />
+                                    <span class="crossword-board__item--blank" id="item9-4"></span>
+                                    <span class="crossword-board__item--blank" id="item9-5"></span>
+                                    <span class="crossword-board__item--blank" id="item9-6"></span>
+                                    <!-- ROW 9 -->
+                                    <div class="crossword-board crossword-board--highlight crossword-board--highlight--across">
+                                        <span id="across-1"
+                                            class="crossword-board__item-highlight crossword-board__item-highlight--across-1"></span>
+                                    </div>
+                        
+                                    <div class="crossword-board crossword-board--highlight crossword-board--highlight-down">
+                                        <span id="down-1"
+                                            class="crossword-board__item-highlight crossword-board__item-highlight--down-1"></span>
+                                    </div>
+                        
+                                    <div class="crossword-board crossword-board--labels">
+                                        <span id="label-1" class="crossword-board__item-label crossword-board__item-label--1"><span
+                                                class="crossword-board__item-label-text">1</span></span>
+                                        <span id="label-2" class="crossword-board__item-label crossword-board__item-label--2"><span
+                                                class="crossword-board__item-label-text">2</span></span>
+                                    </div>
+                        
+                                    <div class="crossword-clues">
+                        
+                                        <dl class="crossword-clues__list crossword-clues__list--across">
+                                            <dt class="crossword-clues__list-title">Across</dt>
+                                            <dd class="crossword-clues__list-item crossword-clues__list-item--across-1" data-number="1">Not the past, not the present
+                                                (6)</dd>
+                                        </dl>
+                        
+                                        <dl class="crossword-clues__list crossword-clues__list--down">
+                                            <dt class="crossword-clues__list-title">Down</dt>
+                                            <dd class="crossword-clues__list-item crossword-clues__list-item--down-1" data-number="1">Looking back longingly (9)
+                                            </dd>
+                                        </dl>
+                        
+                                    </div>
+                                    
+                                    <div class="crossword-complete">
+                                        well done, hunk!
+                                    </div>
+                        
+                                </div>
+                                
+                                
+                        </div>
+                    
+                    </div>
+                </div>
 
+            </div>
+        </header>
+        
+        
+        <!-- Footer-->
+        <footer class="bg-black text-center py-5">
+            <div class="container px-5">
+                <div class="text-white-50 small">
+                    <div class="mb-2">&copy; Your Website 2021. All Rights Reserved.</div>
+                    <a href="#!">Privacy</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="#!">Terms</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="#!">FAQ</a>
+                </div>
+            </div>
+        </footer>
+        <!-- Feedback Modal-->
+        <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-gradient-primary-to-secondary p-4">
+                        <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Send feedback</h5>
+                        <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body border-0 p-4">
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone number</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
