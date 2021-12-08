@@ -11632,6 +11632,7 @@ footer a:hover, footer a:active, footer a:focus {
   position: relative;
   background: transparent;
   width: 350px;
+  margin-left: 12%;
 }
 
 .crossword-board {
@@ -11777,19 +11778,19 @@ footer a:hover, footer a:active, footer a:focus {
 
 #item4-1:active,
 #item4-1:focus,
-#item4-1:hover{
+#item4-1:hover {
   background: #FFFF74;
 }
 
 #item4-2:active,
 #item4-2:focus,
-#item4-2:hover ~ .crossword-clues .crossword-clues__list-item--across-1 {
+#item4-2:hover {
   background: #FFFF74;
 }
 
-#item4-3:active ~ .crossword-clues .crossword-clues__list-item--across-1,
-#item4-3:focus ~ .crossword-clues .crossword-clues__list-item--across-1,
-#item4-3:hover ~ .crossword-clues .crossword-clues__list-item--across-1 {
+#item4-3:active,
+#item4-3:focus,
+#item4-3:hover {
   background: #FFFF74;
 }
 
@@ -11866,12 +11867,12 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 
-#item4-1:valid ~ #item4-2:valid ~ #item4-3:valid ~ #item4-4:valid ~ #item4-5:valid ~ #item4-6:valid ~ .crossword-clues .crossword-clues__list-item--across-1 {
+#item4-1:valid ~ #item4-2:valid ~ #item4-3:valid ~ #item4-4:valid ~ #item4-5:valid ~ #item4-6:valid ~ {
   background: #9AFF67;
 }
 
 
-#item1-3:valid ~ #item2-3:valid ~ #item3-3:valid ~ #item4-3:valid ~ #item5-3:valid ~ #item6-3:valid ~ #item7-3:valid ~ #item8-3:valid ~ #item9-3:valid ~ .crossword-clues .crossword-clues__list-item--down-1 {
+#item1-3:valid ~ #item2-3:valid ~ #item3-3:valid ~ #item4-3:valid ~ #item5-3:valid ~ #item6-3:valid ~ #item7-3:valid ~ #item8-3:valid ~ #item9-3:valid ~ {
   background: #9AFF67;
 }
 
