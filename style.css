@@ -11756,7 +11756,7 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 .crossword-clues__list {
-  margin: 0 0 0 60px;
+  
   padding: 0;
   display: inline-block;
   vertical-align: top;
@@ -11775,14 +11775,14 @@ footer a:hover, footer a:active, footer a:focus {
   content: attr(data-number) ". ";
 }
 
-#item4-1:active ~ .d-flex .crossword-clues .crossword-clues__list-item--across-1,
-#item4-1:focus ~ .crossword-clues .crossword-clues__list-item--across-1,
-#item4-1:hover ~ .crossword-clues .crossword-clues__list-item--across-1 {
+#item4-1:active,
+#item4-1:focus,
+#item4-1:hover{
   background: #FFFF74;
 }
 
-#item4-2:active ~ .crossword-clues .crossword-clues__list-item--across-1,
-#item4-2:focus ~ .crossword-clues .crossword-clues__list-item--across-1,
+#item4-2:active,
+#item4-2:focus,
 #item4-2:hover ~ .crossword-clues .crossword-clues__list-item--across-1 {
   background: #FFFF74;
 }
