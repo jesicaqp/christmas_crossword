@@ -9811,7 +9811,7 @@ footer a:hover, footer a:active, footer a:focus {
 
 .box {
   position: relative;
-  top: 80%;
+  top: 50%;
 }
 .box::before {
   content: "";
