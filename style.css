@@ -9811,7 +9811,7 @@ footer a:hover, footer a:active, footer a:focus {
 
 .box {
   position: relative;
-  top: 95%;
+  top: 80%;
 }
 .box::before {
   content: "";
@@ -9830,7 +9830,7 @@ footer a:hover, footer a:active, footer a:focus {
   position: relative;
   height: 200px;
   width: 200px;
-  margin-top: 103.3333333333px;
+  margin-top: 123.3333333333px;
   background-color: #cc231e;
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
@@ -9839,7 +9839,7 @@ footer a:hover, footer a:active, footer a:focus {
 }
 .box-body .img{
   opacity: 0;
-  ransform: translateY(0%);
+  transform: translateY(0%);
   transition: all 0.5s;
   margin: 0 auto;
   display: block;
