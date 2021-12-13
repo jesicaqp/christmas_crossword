@@ -2993,6 +2993,7 @@ textarea.form-control-lg {
 }
 
 .btn {
+  margin-top: 10%;
   display: inline-block;
   font-weight: 500;
   line-height: 1.5;
@@ -11876,20 +11877,6 @@ footer a:hover, footer a:active, footer a:focus {
   background: #9AFF67;
 }
 
-
-
-.crossword-complete {
-  position: absolute;
-  z-index: 1000;
-  top: 50%;
-  left: 200%;
-  font-size: 100px;
-  line-height: 1;
-  color: red;
-  width: 100%;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
  
 #item4-1:valid ~ #item4-2:valid ~ #item4-3:valid ~ #item4-4:valid ~ #item4-5:valid ~ #item4-6:valid ~ #item1-3:valid ~ #item2-3:valid ~ #item3-3:valid ~ #item5-3:valid ~ #item6-3:valid ~ #item7-3:valid ~ #item8-3:valid ~ #item9-3:valid ~ .crossword-complete {
   opacity: 1;
