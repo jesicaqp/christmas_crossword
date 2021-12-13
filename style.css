@@ -334,16 +334,7 @@ label {
   display: inline-block;
 }
 
-button {
-  border-radius: 0;
-}
-
-button:focus:not(:focus-visible) {
-  outline: 0;
-}
-
 input,
-button,
 select,
 optgroup,
 textarea {
@@ -353,13 +344,8 @@ textarea {
   line-height: inherit;
 }
 
-button,
 select {
   text-transform: none;
-}
-
-[role=button] {
-  cursor: pointer;
 }
 
 select {
@@ -371,19 +357,6 @@ select:disabled {
 
 [list]::-webkit-calendar-picker-indicator {
   display: none;
-}
-
-button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
-button:not(:disabled),
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled) {
-  cursor: pointer;
 }
 
 ::-moz-focus-inner {
@@ -11377,7 +11350,7 @@ section {
   pointer-events: auto;
 }
 
-.device .button {
+.device {
   position: absolute;
   cursor: pointer;
 }
@@ -11398,7 +11371,7 @@ section {
   background-image: url("../assets/img/portrait_black.png");
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .button {
+.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] {
   display: none;
   top: 0%;
   left: 0%;
@@ -11897,3 +11870,5 @@ footer a:hover, footer a:active, footer a:focus {
   background: #9AFF67;
   cursor: pointer;
 }
+
+/*** CODE FOR CONFETTI BUTTON ***/
