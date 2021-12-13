@@ -60,7 +60,6 @@ window.addEventListener('DOMContentLoaded', event => {
     function updateValue(e) {
             notValid = false
             itemMaps.forEach((values,keys)=>{
-                log.textContent = (e.target.value.toUpperCase() === itemMaps.get(e.target.id));
                 if (document.getElementById(keys).value.toUpperCase() != values){
                     notValid = true
                 }
