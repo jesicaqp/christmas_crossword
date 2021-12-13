@@ -66,6 +66,10 @@ window.addEventListener('DOMContentLoaded', event => {
             })
         button.disabled = notValid
     }
+
+    function delay (URL) {
+      setTimeout( function() { window.location = URL }, 500 );
+  }
 });
 
 
