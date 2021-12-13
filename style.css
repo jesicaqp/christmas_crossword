@@ -462,6 +462,7 @@ progress {
 }
 
 .lead {
+  margin-top: 15%;
   font-size: 1.25rem;
   font-weight: 300;
 }
