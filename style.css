@@ -9805,18 +9805,15 @@ footer a:hover, footer a:active, footer a:focus {
   cursor: pointer;
 }
 
-body {
-  background: black;
-}
-
 .box {
   position: relative;
+  top: 50%;
 }
 .box::before {
   content: "";
   width: 440px;
   height: 440px;
-  background-color: #89cff0;
+  background-color: #83da91;
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -9851,7 +9848,7 @@ body {
 .box-body:hover .img{
   opacity: 1;
   z-index: 0;
-  transform: translateY(-157px);
+  transform: translateY(-207px);
 
 
    
