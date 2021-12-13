@@ -169,8 +169,14 @@
                                                 class="crossword-board__item-label-text">2</span></span>
                                     </div>
                                 </div>
-                                <!---<div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg" id="submitButton" type="submit" disbaled="disabled">Submit</button></div>--->
-                                <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg" id="submitButton" type="submit" disbaled="disabled">Redeem your gift!</button></div>
+                                <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+                                <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg" id="submitButton" type="submit" disabled="disabled" onClick="confetti(
+                                    { origin: {
+                                            x: 0.5,
+                                            // since they fall down, start a bit higher than random
+                                            y: 0.89
+                                          }}
+                                );">Reedem your gift!</button></div>
                                 
                         </div>
                     </div>

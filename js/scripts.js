@@ -64,12 +64,8 @@ window.addEventListener('DOMContentLoaded', event => {
                     notValid = true
                 }
             })
-            ///log.textContent = (e.target.value.toUpperCase() === 'N');
-
         button.disabled = notValid
     }
-
-
 });
 
 
