@@ -9612,7 +9612,7 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 .crossword-board__item-highlight {
-  background: #9AFF67;
+  background: #89b694;
   display: grid;
   opacity: 0;
   transition: opacity 0.3s linear;
@@ -9776,12 +9776,12 @@ footer a:hover, footer a:active, footer a:focus {
 
 
 #item4-1:valid ~ #item4-2:valid ~ #item4-3:valid ~ #item4-4:valid ~ #item4-5:valid ~ #item4-6:valid ~ {
-  background: #9AFF67;
+  background: #6d94aa;
 }
 
 
 #item1-3:valid ~ #item2-3:valid ~ #item3-3:valid ~ #item4-3:valid ~ #item5-3:valid ~ #item6-3:valid ~ #item7-3:valid ~ #item8-3:valid ~ #item9-3:valid ~ {
-  background: #9AFF67;
+  background: #30657a;
 }
 
  
@@ -9790,7 +9790,7 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 #checkvaliditems {
-  background: #9AFF67;
+  background: #30657a;
   cursor: pointer;
   position: absolute;
   top: 137px;
@@ -9801,7 +9801,7 @@ footer a:hover, footer a:active, footer a:focus {
   padding: 10px 10px 10px 40px;
   margin: 20px;
   display: inline-block;
-  background: #9AFF67;
+  background: #30657a;
   cursor: pointer;
 }
 
@@ -9817,7 +9817,7 @@ footer a:hover, footer a:active, footer a:focus {
   content: "";
   width: 400px;
   height: 400px;
-  background-color: #83da91;
+  background-color: #96c3d1;
   position: absolute;
   z-index: -1;
   top: 50%;
